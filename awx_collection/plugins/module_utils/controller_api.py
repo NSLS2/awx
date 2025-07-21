@@ -308,7 +308,7 @@ class ControllerAPIModule(ControllerModule):
     # TODO: Move the collection version check into controller_module.py
     # This gets set by the make process so whatever is in here is irrelevant
     _COLLECTION_VERSION = "0.0.1-devel"
-    _COLLECTION_TYPE = "awx"
+    _COLLECTION_TYPE = "controller"
     # This maps the collections type (awx/tower) to the values returned by the API
     # Those values can be found in awx/api/generics.py line 204
     collection_to_version = {
